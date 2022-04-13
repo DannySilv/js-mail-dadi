@@ -14,7 +14,7 @@ if (userRandomNum > pcRandomNum) {
 } else if (userRandomNum < pcRandomNum) {
     result = "Mi dispiace, hai perso!"
 } else if (userRandomNum == pcRandomNum) {
-    result = "Abbiamo pareggiato!";
+    result = "Avete pareggiato!";
 }
 alert(result);
 console.log(result);
